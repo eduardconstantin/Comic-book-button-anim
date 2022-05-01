@@ -8,4 +8,4 @@ What I learned making this project:
 
 # GIFs
 
-<img src="https://raw.githubusercontent.com/eduardconstantin/Crypto-Rankings/main/screenshots/mainScreen-desktop.png">
+<img src="https://github.com/eduardconstantin/Comic-book-button-anim/blob/main/gif/btn.gif?raw=true">
