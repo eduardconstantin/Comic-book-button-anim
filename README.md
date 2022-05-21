@@ -6,6 +6,6 @@ What I learned making this project:
 - fundamentals of react.js: components, imports, props, states, installing modules, framer motion
 - css modules
 
-# GIFs
+---
 
 <img src="https://github.com/eduardconstantin/Comic-book-button-anim/blob/main/gif/btn.gif?raw=true">
