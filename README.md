@@ -8,4 +8,4 @@ What I learned making this project:
 
 ---
 
-<img src="https://github.com/eduardconstantin/Comic-book-button-anim/blob/main/gif/btn.gif?raw=true">
+<img src="https://github.com/eduardconstantin/Navigation-menu-animation/blob/main/gif/menu.gif">
