@@ -3,13 +3,13 @@ import { motion } from 'framer-motion';
 import { buttonAnim, buttonAnim2, clickAnim } from './Button.anim';
 import style from './Button.module.css';
 
-export default function Button() {
-	const [btnName, setBtnName] = useState('BUTTON');
+export default function Button({ buttonName }) {
+	const [btnName, setBtnName] = useState(buttonName);
 
 	const btnClick = () => {
 		setBtnName('PRESSED');
 		setTimeout(() => {
-			setBtnName('BUTTON');
+			setBtnName(buttonName);
 		}, 150);
 	};
 
@@ -24,7 +24,7 @@ export default function Button() {
 				whileTap='tap'
 				onClick={() => btnClick()}
 				onMouseEnter={() => setBtnName('HOVER')}
-				onMouseLeave={() => setBtnName('BUTTON')}
+				onMouseLeave={() => setBtnName(buttonName)}
 			>
 				{btnName}
 				<motion.div className={style.btnWrapper} variants={buttonAnim2}></motion.div>
@@ -37,3 +37,7 @@ export default function Button() {
 		</div>
 	);
 }
+
+Button.defaultProps = {
+	buttonName: 'BUTTON',
+};
