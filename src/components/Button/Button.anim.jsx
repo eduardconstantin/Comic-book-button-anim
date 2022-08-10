@@ -1,70 +1,60 @@
 export const buttonAnim = {
 	init: {
+		translateX: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 		scale: 1,
-		textShadow: '0px 0px 0px #000, 0px 0px 0px #000',
-		transition: {
-			duration: 0.1,
-		},
-	},
-	hover: {
-		textShadow: [
-			'0px 0px 0px #ff006a, 0px 0px 0px #00dcff',
-			'-2px 0px 1px #ff006a, 2px 0px 1px #00dcff',
-			'2px 0px 1px #ff006a, -2px 0px 1px #00dcff',
-			'0px 0px 0px #ff006a, 0px 0px 0px #00dcff',
+		filter: [
+			'drop-shadow(0px 0px 0px #ff006a) drop-shadow(0px 0px 0px #00dcff)',
+			'drop-shadow(0px 0px 0px #ff006a) drop-shadow(0px 0px 0px #00dcff)',
+			'drop-shadow(0px 0px 0px #ff006a) drop-shadow(0px 0px 0px #00dcff)',
+			'drop-shadow(0px 0px 0px #ff006a) drop-shadow(0px 0px 0px #00dcff)',
+			'drop-shadow(0px 0px 0px #ff006a) drop-shadow(0px 0px 0px #00dcff)',
+			'drop-shadow(0px 0px 0px #ff006a) drop-shadow(0px 0px 0px #00dcff)',
 		],
 		transition: {
 			duration: 0.1,
+			ease: [0.455, 0.03, 0.515, 0.955],
 		},
 	},
-	tap: {
-		scale: 0.8,
-		transition: {
-			duration: 0.1,
-		},
-	},
-};
-export const buttonAnim2 = {
-	init: {
-		translateX: 0,
-		transition: {
-			duration: 0.1,
-		},
-	},
-	hover: {
-		translateX: [0, -10, 10, 0],
+	hover: (custom) => ({
+		translateX: [0, -custom, custom, -custom + 2, custom - 8, -custom + 8, custom - 2, -custom, custom, 0],
 		filter: [
 			'drop-shadow(0px 0px 0px #ff006a) drop-shadow(0px 0px 0px #00dcff)',
+			'drop-shadow(-5px 0px 1px #ff006a) drop-shadow(5px 0px 1px #00dcff)',
+			'drop-shadow(5px 0px 1px #ff006a) drop-shadow(-5px 0px 1px #00dcff)',
 			'drop-shadow(-5px 0px 1px #ff006a) drop-shadow(5px 0px 1px #00dcff)',
 			'drop-shadow(5px 0px 1px #ff006a) drop-shadow(-5px 0px 1px #00dcff)',
 			'drop-shadow(0px 0px 0px #ff006a) drop-shadow(0px 0px 0px #00dcff)',
 		],
 		transition: {
-			duration: 0.1,
+			duration: 0.3,
+			ease: [0.455, 0.03, 0.515, 0.955],
 		},
-	},
+	}),
 	tap: {
-		translateX: 0,
+		scale: 0.9,
 		transition: {
 			duration: 0.1,
+			ease: [0.455, 0.03, 0.515, 0.955],
 		},
 	},
 };
 
 export const clickAnim = {
-	init: {
-		display: 'none',
+	init: (custom) => ({
+		x: custom,
+		scale: 0,
 		opacity: 0,
 		transition: {
-			duration: 0.05,
+			duration: 0.1,
 		},
-	},
+	}),
 	anim: {},
-	tap: {
-		display: 'block',
+	tap: (custom) => ({
+		x: custom,
 		opacity: 1,
+		scale: 1.2,
 		transition: {
-			duration: 0.05,
+			duration: 0.07,
 		},
-	},
+	}),
 };
