@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { buttonAnim, clickAnim } from './Button.anim';
-import style from './Button.module.css';
+import { buttonAnim, clickAnim } from './ComicButton.anim';
+import style from './ComicButton.module.css';
 
 const randomNo = (min, max) => {
 	return min + Math.floor(Math.random() * (max - min));
 };
 
-export default function Button({ buttonName, hoverBtnName }) {
+export default function ComicButton({ buttonName, hoverBtnName }) {
 	const [btnName, setBtnName] = useState(buttonName);
 
 	return (
@@ -31,7 +31,7 @@ export default function Button({ buttonName, hoverBtnName }) {
 	);
 }
 
-Button.defaultProps = {
+ComicButton.defaultProps = {
 	buttonName: 'BUTTON',
 	hoverBtnName: 'HOVER',
 };
