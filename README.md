@@ -8,4 +8,24 @@ What I learned making this project:
 
 ---
 
-<img src="https://github.com/eduardconstantin/Comic-book-button-anim/blob/main/gif/btn.gif">
+<img src="https://github.com/eduardconstantin/Comic-book-button-anim/blob/main/anim/btngif.gif">
+
+## Usage
+``` javascript
+import ComicButton from './components/ComicButton/ComicButton';
+
+export default function App() {
+  return (
+    <div className='App'>
+      <ComicButton buttonName='BUTTON' hoverBtnName='HOVER' />
+    </div>
+  );
+}
+```
+
+## Props
+* buttonName - string for button name
+* hoverBtnName - string for hover button name
+
+## Contributing
+If you think you can make an improvement don't hesitate to open a pull request.
