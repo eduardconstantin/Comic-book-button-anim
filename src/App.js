@@ -1,9 +1,11 @@
-import Button from './components/Button/Button';
+import ComicButton from './components/ComicButton/ComicButton';
 
 export default function App() {
 	return (
 		<div className='App'>
-			<Button />
+			<div className='buttonContainer'>
+				<ComicButton buttonName='BUTTON' hoverBtnName='HOVER' />
+			</div>
 		</div>
 	);
 }
