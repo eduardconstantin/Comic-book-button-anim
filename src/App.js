@@ -4,7 +4,7 @@ export default function App() {
 	return (
 		<div className='App'>
 			<div className='buttonContainer'>
-				<ComicButton />
+				<ComicButton buttonName='BUTTON' hoverBtnName='HOVER' />
 			</div>
 		</div>
 	);

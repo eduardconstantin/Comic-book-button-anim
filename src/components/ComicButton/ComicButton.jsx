@@ -31,5 +31,5 @@ export default function ComicButton({ buttonName, hoverBtnName }) {
 
 ComicButton.defaultProps = {
 	buttonName: 'BUTTON',
-	hoverBtnName: 'HOVER',
+	hoverBtnName: 'BUTTON',
 };
