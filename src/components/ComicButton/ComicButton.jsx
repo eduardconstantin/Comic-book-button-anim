@@ -11,23 +11,21 @@ export default function ComicButton({ buttonName, hoverBtnName }) {
 	const [btnName, setBtnName] = useState(buttonName);
 
 	return (
-		<div className={style.buttonContainer}>
-			<motion.button
-				type='button'
-				className={style.btn}
-				initial='init'
-				animate='init'
-				whileHover='hover'
-				whileTap='tap'
-				variants={buttonAnim}
-				custom={randomNo(6, 12)}
-				onMouseEnter={() => setBtnName(hoverBtnName)}
-				onMouseLeave={() => setBtnName(buttonName)}
-			>
-				{btnName}
-				<motion.div className={style.click} variants={clickAnim} custom={randomNo(-50, 50)}></motion.div>
-			</motion.button>
-		</div>
+		<motion.button
+			type='button'
+			className={style.btn}
+			initial='init'
+			animate='init'
+			whileHover='hover'
+			whileTap='tap'
+			variants={buttonAnim}
+			custom={randomNo(6, 12)}
+			onMouseEnter={() => setBtnName(hoverBtnName)}
+			onMouseLeave={() => setBtnName(buttonName)}
+		>
+			{btnName}
+			<motion.div className={style.click} variants={clickAnim} custom={randomNo(-50, 50)}></motion.div>
+		</motion.button>
 	);
 }
 
