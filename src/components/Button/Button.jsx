@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { buttonAnim, buttonAnim2, clickAnim } from './Button.anim';
+import { buttonAnim, clickAnim } from './Button.anim';
 import style from './Button.module.css';
 
-export default function Button({ buttonName }) {
+const randomNo = (min, max) => {
+	return min + Math.floor(Math.random() * (max - min));
+};
+
+export default function Button({ buttonName, hoverBtnName }) {
 	const [btnName, setBtnName] = useState(buttonName);
 
 	return (
@@ -16,12 +20,12 @@ export default function Button({ buttonName }) {
 				whileHover='hover'
 				whileTap='tap'
 				variants={buttonAnim}
-				custom={6 + Math.floor(Math.random() * (12 - 6))}
-				onMouseEnter={() => setBtnName('HOVER')}
+				custom={randomNo(6, 12)}
+				onMouseEnter={() => setBtnName(hoverBtnName)}
 				onMouseLeave={() => setBtnName(buttonName)}
 			>
 				{btnName}
-				<motion.div className={style.click} variants={clickAnim} custom={50 - Math.floor(Math.random() * 100)}></motion.div>
+				<motion.div className={style.click} variants={clickAnim} custom={randomNo(-50, 50)}></motion.div>
 			</motion.button>
 		</div>
 	);
@@ -29,4 +33,5 @@ export default function Button({ buttonName }) {
 
 Button.defaultProps = {
 	buttonName: 'BUTTON',
+	hoverBtnName: 'HOVER',
 };
