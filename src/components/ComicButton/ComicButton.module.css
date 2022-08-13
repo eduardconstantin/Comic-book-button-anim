@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Dekko|Lato:900|Rock+Salt');
 .btn {
-	width: 130px;
+	min-width: fit-content;
 	border: none;
 	font-family: 'Dekko';
 	font-size: 24px;
-	padding: 0.3rem 1.25rem 0.2rem 1.25rem;
+	padding: 0.3rem 1.75rem 0.2rem 1.75rem;
 	position: relative;
 	z-index: 2;
 	border: 3px solid rgb(0, 0, 0);
