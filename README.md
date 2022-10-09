@@ -1,4 +1,4 @@
-<h1 align="center">Comic book button animation,</h1>
+<h1 align="center">Comic book button animation</h1>
 
  I did a little experiment with react, trying to make a comic book like button animation. Inspired by Spider-man into the spider-verse movie.
 
