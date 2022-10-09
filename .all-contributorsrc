@@ -1,0 +1,48 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+   {
+      "login": "JuanitaCathy",
+      "name": "Juanita",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114871036?v=4",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Pavan-Kamthane",
+      "name": "Pavan Kamthane",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95903010?v=4",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "VedantKCSE",
+      "name": "Vedant Kahalekar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98043938?v=4",
+      "contributions": [
+        "doc"
+      ]
+    },
+     {
+      "login": "Mldamico",
+      "name": "",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37380030?v=4",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "Comic-book-button-anim",
+  "projectOwner": "eduardconstantin"
+}
