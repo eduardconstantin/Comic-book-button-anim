@@ -23,9 +23,33 @@ export default function App() {
 }
 ```
 
+## Steps to follow :scroll:
+
+### Tip : Complete this process in GitHub (in your browser)
+
+```mermaid
+flowchart LR
+    Fork[Fork the project]-->branch[Create a New Branch]
+    branch-->Edit[Edit file]
+    Edit-->commit[Commit the changes]
+    commit -->|Finally|creatpr((Create a Pull Request))
+    
+ ```
+ 
+ ### Star The Repository :star2:
+
 ## Props
 * buttonName - string for button name
 * hoverBtnName - string for hover button name
 
 ## Contributing
 If you think you can make an improvement don't hesitate to open a pull request.
+
+## Our contributors :
+
+
+<a href="https://github.com/eduardconstantin/Comic-book-button-anim/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=eduardconstantin/Comic-book-button-anim" />
+</a>
+
+<!-- Made with [contrib.rocks](https://contrib.rocks). -->
