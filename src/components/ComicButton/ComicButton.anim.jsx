@@ -46,9 +46,15 @@ export const buttonAnim = {
 			ease: [0.455, 0.03, 0.515, 0.955],
 		},
 	}),
+	focus: (custom) => ({
+		scale: custom - 5,
+		transition: {
+			duration: 0.8,
+			ease: [0.65, 0.04, 0.415, 0.815],
+		},
+	}),
 	tap: {
 		scale: 0.9,
-
 		transition: {
 			duration: 0.1,
 			ease: [0.455, 0.03, 0.515, 0.955],
