@@ -36,9 +36,14 @@ flowchart LR
     
  ```
  
+ ### Star The Repository :star2:
+
 ## Props
 * buttonName - string for button name
 * hoverBtnName - string for hover button name
 
 ## Contributing
-If you think you can make an improvement don't hesitate to open a pull request.
+## Awesome contributors :star_struck:
+<a href="https://github.com/eduardconstantin/Comic-book-button-anim/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=kishanrajput23/Awesome-Python-Projects" />
+</a>
