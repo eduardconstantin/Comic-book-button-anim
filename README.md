@@ -45,11 +45,17 @@ flowchart LR
 ## Contributing
 If you think you can make an improvement don't hesitate to open a pull request.
 
-## Our contributors :
+## Contributors
 
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-<a href="https://github.com/eduardconstantin/Comic-book-button-anim/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=eduardconstantin/Comic-book-button-anim" />
-</a>
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 
-<!-- Made with [contrib.rocks](https://contrib.rocks). -->
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
