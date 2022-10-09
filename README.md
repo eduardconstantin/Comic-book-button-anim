@@ -44,6 +44,9 @@ flowchart LR
 
 ## Contributing
 ## Awesome contributors :star_struck:
-<a href="https://github.com/eduardconstantin/Comic-book-button-anim/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=kishanrajput23/Awesome-Python-Projects" />
+
+<a href="https://github.com/cuttle-cards/cuttle/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=cuttle-cards/cuttle" />
 </a>
+
+<!-- ----Made with [contrib.rocks](https://contrib.rocks). -->
