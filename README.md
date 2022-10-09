@@ -1,16 +1,17 @@
-# Comic book button animation
+<h1 align="center">Comic book button animation,</h1>
 
-A little experiment I did with react, trying to make a comic book like button animation. Inspired by Spider-man into the spider-verse movie.
+ I did a little experiment with react, trying to make a comic book like button animation. Inspired by Spider-man into the spider-verse movie.
 
-What I learned making this project:
-- fundamentals of react.js: components, imports, props, states, installing modules, framer motion
-- css modules
+### What I learned making this project:
+- Fundamentals of react.js: components, imports, props, states, installing modules, framer motion
+- CSS modules
 
 ---
 
 <img src="https://github.com/eduardconstantin/Comic-book-button-anim/blob/main/anim/btngif.gif">
 
-## Usage
+<h1 align="center"> Usage </h1>
+
 ``` javascript
 import ComicButton from './components/ComicButton/ComicButton';
 
@@ -25,7 +26,7 @@ export default function App() {
 
 ## Steps to follow :scroll:
 
-### Tip : Complete this process in GitHub (in your browser)
+### Tip : Complete this process in GitHub ( In your browser 🌐)
 
 ```mermaid
 flowchart LR
