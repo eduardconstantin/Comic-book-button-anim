@@ -23,6 +23,9 @@ export default function App() {
   );
 }
 ```
+## Props
+* buttonName - string for button name
+* hoverBtnName - string for hover button name
 
 ## Steps to follow :scroll:
 
@@ -38,10 +41,6 @@ flowchart LR
  ```
  
  ### Star The Repository :star2:
-
-## Props
-* buttonName - string for button name
-* hoverBtnName - string for hover button name
 
 ## Contributing
 If you think you can make an improvement don't hesitate to open a pull request.
