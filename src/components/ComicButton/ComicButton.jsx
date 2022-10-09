@@ -7,7 +7,7 @@ const randomNo = (min, max) => {
 	return min + Math.floor(Math.random() * (max - min));
 };
 
-export default function ComicButton({ buttonName, hoverBtnName }) {
+export default function ComicButton({ buttonName, hoverBtnName, focusBtnName }) {
 	const [btnName, setBtnName] = useState(buttonName);
 
 	return (
@@ -18,10 +18,13 @@ export default function ComicButton({ buttonName, hoverBtnName }) {
 			animate='init'
 			whileHover='hover'
 			whileTap='tap'
+			whileFocus='focus'
 			variants={buttonAnim}
 			custom={randomNo(6, 12)}
+			onFocus={() => setBtnName(focusBtnName)}
 			onMouseEnter={() => setBtnName(hoverBtnName)}
 			onMouseLeave={() => setBtnName(buttonName)}
+
 		>
 			{btnName}
 			<motion.div className={style.click} variants={clickAnim} custom={randomNo(-50, 50)}></motion.div>
@@ -32,4 +35,5 @@ export default function ComicButton({ buttonName, hoverBtnName }) {
 ComicButton.defaultProps = {
 	buttonName: 'BUTTON',
 	hoverBtnName: 'BUTTON',
+	focusBtnName: 'FOCUS'
 };
