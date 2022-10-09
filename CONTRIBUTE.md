@@ -45,10 +45,7 @@ git clone https://github.com/eduardconstantin/Comic-book-button-anim.git
 ### 4. Choose your Stack
 ---
 * Web(HTML, CSS, JS)
-* Python GUI Application(tkinter, Pygame, PyQT)
-* Python Automation Tool
-* Data Structure & Algorithms
-* Designs/Sketches<br/>
+* Designs/Sketches
 
 
 ### 5. Creating a Pull request
@@ -98,7 +95,6 @@ git push origin branch_name
 
 * Click on "Create pull request"
 
-* Click on "Create pull request"
- You may add a Comment to your Pull Request
+* You may add a Comment to your Pull Request
 
 
