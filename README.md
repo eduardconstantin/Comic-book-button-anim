@@ -43,10 +43,13 @@ flowchart LR
 * hoverBtnName - string for hover button name
 
 ## Contributing
-## Awesome contributors :star_struck:
+If you think you can make an improvement don't hesitate to open a pull request.
 
-<a href="https://github.com/cuttle-cards/cuttle/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=cuttle-cards/cuttle" />
+## Our contributors :
+
+
+<a href="https://github.com/eduardconstantin/Comic-book-button-anim/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=eduardconstantin/Comic-book-button-anim" />
 </a>
 
-<!-- ----Made with [contrib.rocks](https://contrib.rocks). -->
+<!-- Made with [contrib.rocks](https://contrib.rocks). -->
