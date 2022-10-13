@@ -3,11 +3,17 @@ import { motion } from "framer-motion";
 import { buttonAnim, clickAnim } from "./ComicButton.anim";
 import style from "./ComicButton.module.css";
 
-const randomNo = (min, max) => {
+interface ComicButtonProps {
+  buttonName: string,
+  hoverBtnName: string,
+  focusBtnName: string
+}
+
+const randomNo = (min: number, max: number) => {
   return min + Math.floor(Math.random() * (max - min));
 };
 
-export default function ComicButton({ buttonName, hoverBtnName }) {
+export default function ComicButton({ buttonName, hoverBtnName, focusBtnName }: ComicButtonProps) {
   const [btnName, setBtnName] = useState(buttonName);
 
   return (

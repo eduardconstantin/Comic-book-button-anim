@@ -23,7 +23,7 @@ export const buttonAnim = {
       ease: [0.455, 0.03, 0.515, 0.955],
     },
   },
-  hover: (custom) => ({
+  hover: (custom: number) => ({
     translateX: [0, -custom, custom, -custom + 2, custom - 2, -custom, custom, 0],
     textShadow: [
       "0px 0px 0px #ff006a, 0px 0px 0px #00dcff",
@@ -56,7 +56,7 @@ export const buttonAnim = {
 };
 
 export const clickAnim = {
-  init: (custom) => ({
+  init: (custom: number) => ({
     x: custom,
     scale: 0,
     opacity: 0,
@@ -65,7 +65,7 @@ export const clickAnim = {
     },
   }),
   anim: {},
-  tap: (custom) => ({
+  tap: (custom: number) => ({
     x: custom,
     opacity: 1,
     scale: 1.2,
