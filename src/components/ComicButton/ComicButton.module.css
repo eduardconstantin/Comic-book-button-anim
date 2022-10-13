@@ -10,12 +10,17 @@
 	border: 3px solid rgb(0, 0, 0);
 	background-color: rgb(253, 217, 11);
 }
-
+.btn:hover{
+	cursor: url('./img/pointer.png'), auto;
+}
+.btn:active{
+	cursor: url('./img/clicked.png'), auto;
+}
 .click {
 	position: absolute;
 	width: 100%;
 	height: 64px;
-	background-image: url(./img/click.png);
+	background-image: url('./img/click.png');
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
