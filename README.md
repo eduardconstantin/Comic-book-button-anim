@@ -48,7 +48,7 @@ If you think you can make an improvement don't hesitate to open a pull request.
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -57,10 +57,11 @@ If you think you can make an improvement don't hesitate to open a pull request.
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/114871036?v=4?s=100" width="100px;" alt="Juanita"/><br /><sub><b>Juanita</b></sub><br /><a href="https://github.com/eduardconstantin/Comic-book-button-anim/commits?author=JuanitaCathy" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/95903010?v=4?s=100" width="100px;" alt="Pavan Kamthane"/><br /><sub><b>Pavan Kamthane</b></sub><br /><a href="https://github.com/eduardconstantin/Comic-book-button-anim/commits?author=Pavan-Kamthane" title="Documentation">📖</a></td>
-      <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/98043938?v=4?s=100" width="100px;" alt="Vedant Kahalekar"/><br /><sub><b>Vedant Kahalekar</b></sub><br /><a href="https://github.com/eduardconstantin/Comic-book-button-anim/commits?author=VedantKCSE" title="Documentation">📖</a></td>
-      <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/37380030?v=4?s=100" width="100px;" alt="Mldamico"/><br /><sub><b>Mldamico</b></sub><br /><a href="https://github.com/eduardconstantin/Comic-book-button-anim/commits?author=Mldamico" title="Code">💻</a></td>
+      <td align="center"><img src="https://avatars.githubusercontent.com/u/114871036?v=4?s=100" width="100px;" alt="Juanita"/><br /><sub><b>Juanita</b></sub><br /><a href="https://github.com/eduardconstantin/Comic-book-button-anim/commits?author=JuanitaCathy" title="Code">💻</a></td>
+      <td align="center"><img src="https://avatars.githubusercontent.com/u/95903010?v=4?s=100" width="100px;" alt="Pavan Kamthane"/><br /><sub><b>Pavan Kamthane</b></sub><br /><a href="https://github.com/eduardconstantin/Comic-book-button-anim/commits?author=Pavan-Kamthane" title="Documentation">📖</a></td>
+      <td align="center"><img src="https://avatars.githubusercontent.com/u/98043938?v=4?s=100" width="100px;" alt="Vedant Kahalekar"/><br /><sub><b>Vedant Kahalekar</b></sub><br /><a href="https://github.com/eduardconstantin/Comic-book-button-anim/commits?author=VedantKCSE" title="Documentation">📖</a></td>
+      <td align="center"><img src="https://avatars.githubusercontent.com/u/37380030?v=4?s=100" width="100px;" alt="Mldamico"/><br /><sub><b>Mldamico</b></sub><br /><a href="https://github.com/eduardconstantin/Comic-book-button-anim/commits?author=Mldamico" title="Code">💻</a></td>
+      <td align="center"><a href="http://jam-burger.me/"><img src="https://avatars.githubusercontent.com/u/89834788?v=4?s=100" width="100px;" alt="Jay"/><br /><sub><b>Jay</b></sub></a><br /><a href="https://github.com/eduardconstantin/Comic-book-button-anim/commits?author=Jam-Burger" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
