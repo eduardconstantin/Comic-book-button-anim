@@ -1,0 +1,60 @@
+{
+  "name": "postcss-icss-keyframes",
+  "version": "0.2.1",
+  "description": "PostCSS plugin for css-modules to local-scope keyframes",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "babel --out-dir lib src",
+    "test": "jest --coverage",
+    "precommit": "lint-staged",
+    "prepublish": "yarn test && yarn run build"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "extends": "eslint:recommended"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": 4
+          }
+        }
+      ]
+    ]
+  },
+  "repository": "css-modules/postcss-icss-keyframes",
+  "author": "Bogdan Chadkin <trysound@yandex.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-jest": "^20.0.3",
+    "babel-preset-env": "^1.5.2",
+    "eslint": "^4.0.0",
+    "husky": "^0.13.4",
+    "jest": "^20.0.4",
+    "lint-staged": "^3.6.1",
+    "prettier": "^1.4.4",
+    "strip-indent": "^2.0.0"
+  },
+  "dependencies": {
+    "icss-utils": "^3.0.1",
+    "postcss": "^6.0.2",
+    "postcss-value-parser": "^3.3.0"
+  }
+}
