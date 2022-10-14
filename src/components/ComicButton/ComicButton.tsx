@@ -4,16 +4,22 @@ import { buttonAnim, clickAnim } from "./ComicButton.anim";
 import style from "./ComicButton.module.css";
 
 interface ComicButtonProps {
-  buttonName: string,
-  hoverBtnName: string,
-  focusBtnName: string
+  buttonName: string;
+  hoverBtnName: string;
+  focusBtnName: string;
+  handleButtonClick: () => void;
 }
 
 const randomNo = (min: number, max: number) => {
   return min + Math.floor(Math.random() * (max - min));
 };
 
-export default function ComicButton({ buttonName, hoverBtnName, focusBtnName }: ComicButtonProps) {
+export default function ComicButton({
+  buttonName,
+  hoverBtnName,
+  focusBtnName,
+  handleButtonClick,
+}: ComicButtonProps) {
   const [btnName, setBtnName] = useState(buttonName);
 
   return (
@@ -29,9 +35,14 @@ export default function ComicButton({ buttonName, hoverBtnName, focusBtnName }: 
       custom={randomNo(6, 12)}
       onMouseEnter={() => setBtnName(hoverBtnName)}
       onMouseLeave={() => setBtnName(buttonName)}
+      onClick={() => handleButtonClick()}
     >
       {btnName}
-      <motion.div className={style.click} variants={clickAnim} custom={randomNo(-50, 50)}></motion.div>
+      <motion.div
+        className={style.click}
+        variants={clickAnim}
+        custom={randomNo(-50, 50)}
+      ></motion.div>
     </motion.button>
   );
 }
