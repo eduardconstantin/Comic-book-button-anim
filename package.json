@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "all-contributors-cli": "^6.24.0",
     "typescript-plugin-css-modules": "^3.4.0"
   }
 }
