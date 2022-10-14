@@ -6,7 +6,7 @@
   "commit": false,
   "commitConvention": "angular",
   "contributors": [
-   {
+    {
       "login": "JuanitaCathy",
       "name": "Juanita",
       "avatar_url": "https://avatars.githubusercontent.com/u/114871036?v=4",
@@ -30,12 +30,21 @@
         "doc"
       ]
     },
-     {
+    {
       "login": "Mldamico",
       "name": "",
       "avatar_url": "https://avatars.githubusercontent.com/u/37380030?v=4",
       "contributions": [
         "code"
+      ]
+    },
+    {
+      "login": "Frey0-0",
+      "name": "Frey0-0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94757729?v=4",
+      "profile": "https://github.com/Frey0-0",
+      "contributions": [
+        "doc"
       ]
     }
   ],
