@@ -44,6 +44,24 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/35039730?v=4",
       "profile": "https://amreshsinha.vercel.app",
       "contributions": [
+          "code"
+        ]
+      },
+      {
+        "login": "Frey0-0",
+        "name": "Frey0-0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/94757729?v=4",
+        "profile": "https://github.com/Frey0-0",
+        "contributions": [
+          "doc"
+        ]
+      },
+      {
+      "login": "Jam-Burger",
+      "name": "Jay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89834788?v=4",
+      "profile": "http://jam-burger.me/",
+      "contributions": [
         "code"
       ]
     }

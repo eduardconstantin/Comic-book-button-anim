@@ -62,6 +62,8 @@ If you think you can make an improvement don't hesitate to open a pull request.
       <td align="center"><img src="https://avatars.githubusercontent.com/u/98043938?v=4?s=100" width="100px;" alt="Vedant Kahalekar"/><br /><sub><b>Vedant Kahalekar</b></sub><br /><a href="https://github.com/eduardconstantin/Comic-book-button-anim/commits?author=VedantKCSE" title="Documentation">📖</a></td>
       <td align="center"><img src="https://avatars.githubusercontent.com/u/37380030?v=4?s=100" width="100px;" alt="Mldamico"/><br /><sub><b>Mldamico</b></sub><br /><a href="https://github.com/eduardconstantin/Comic-book-button-anim/commits?author=Mldamico" title="Code">💻</a></td>
       <td align="center"><a href="https://amreshsinha.vercel.app"><img src="https://avatars.githubusercontent.com/u/35039730?v=4?s=100" width="100px;" alt="Amresh Prasad Sinha"/><br /><sub><b>Amresh Prasad Sinha</b></sub></a><br /><a href="https://github.com/eduardconstantin/Comic-book-button-anim/commits?author=AmreshSinha" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/Frey0-0"><img src="https://avatars.githubusercontent.com/u/94757729?v=4?s=100" width="100px;" alt="Frey0-0"/><br /><sub><b>Frey0-0</b></sub></a><br /><a href="https://github.com/eduardconstantin/Comic-book-button-anim/commits?author=Frey0-0" title="Documentation">📖</a></td>
+      <td align="center"><a href="http://jam-burger.me/"><img src="https://avatars.githubusercontent.com/u/89834788?v=4?s=100" width="100px;" alt="Jay"/><br /><sub><b>Jay</b></sub></a><br /><a href="https://github.com/eduardconstantin/Comic-book-button-anim/commits?author=Jam-Burger" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
