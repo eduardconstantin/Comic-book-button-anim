@@ -48,7 +48,7 @@ If you think you can make an improvement don't hesitate to open a pull request.
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -67,6 +67,7 @@ If you think you can make an improvement don't hesitate to open a pull request.
     </tr>
     <tr>
       <td align="center"><a href="https://github.com/aaheli8"><img src="https://avatars.githubusercontent.com/u/66815283?v=4?s=100" width="100px;" alt="Aaheli Sadhukhan"/><br /><sub><b>Aaheli Sadhukhan</b></sub></a><br /><a href="https://github.com/eduardconstantin/Comic-book-button-anim/commits?author=aaheli8" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/najeebkp"><img src="https://avatars.githubusercontent.com/u/56462749?v=4?s=100" width="100px;" alt="Najeeb Thangal KP"/><br /><sub><b>Najeeb Thangal KP</b></sub></a><br /><a href="https://github.com/eduardconstantin/Comic-book-button-anim/commits?author=najeebkp" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
