@@ -7,7 +7,7 @@ interface CounterProps {
 function Counter({ count }: CounterProps) {
   return (
     <>
-      <div className={style.counter}>Count : {count}</div>
+      <div className={style.counter}>Count - {count}</div>
     </>
   );
 }

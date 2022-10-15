@@ -6,7 +6,6 @@ import style from "./ComicButton.module.css";
 interface ComicButtonProps {
   buttonName: string;
   hoverBtnName: string;
-  focusBtnName: string;
   handleButtonClick: () => void;
 }
 
@@ -17,7 +16,6 @@ const randomNo = (min: number, max: number) => {
 export default function ComicButton({
   buttonName,
   hoverBtnName,
-  focusBtnName,
   handleButtonClick,
 }: ComicButtonProps) {
   const [btnName, setBtnName] = useState(buttonName);
