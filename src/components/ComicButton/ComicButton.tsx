@@ -6,6 +6,7 @@ import style from "./ComicButton.module.css";
 interface ComicButtonProps {
   buttonName: string;
   hoverBtnName: string;
+  btnClassName?: string;
   handleButtonClick: () => void;
 }
 
@@ -16,6 +17,7 @@ const randomNo = (min: number, max: number) => {
 export default function ComicButton({
   buttonName,
   hoverBtnName,
+  btnClassName,
   handleButtonClick,
 }: ComicButtonProps) {
   const [btnName, setBtnName] = useState(buttonName);
@@ -23,7 +25,7 @@ export default function ComicButton({
   return (
     <motion.button
       type="button"
-      className={style.btn}
+      className={style.btn + " " + btnClassName}
       initial="init"
       animate="init"
       whileHover="hover"
