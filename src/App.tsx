@@ -9,13 +9,15 @@ export default function App() {
   };
   return (
     <div className="App">
-      <div className="buttonContainer">
-        <ComicButton
-          buttonName="BUTTON"
-          hoverBtnName="HOVER"
-          handleButtonClick={handleButtonClick}
-        />
-        <Counter count={count} />
+      <div className="appContainer">
+        <div className="buttonContainer">
+          <ComicButton
+            buttonName="BUTTON"
+            hoverBtnName="HOVER"
+            handleButtonClick={handleButtonClick}
+          />
+          <Counter count={count} />
+        </div>
       </div>
     </div>
   );

@@ -19,8 +19,9 @@ code {
   justify-content: center;
 }
 
-.buttonContainer {
+.appContainer {
   background-color: rgb(45, 42, 51);
+  position: relative;
   width: 100vw;
   height: 100vh;
   display: flex;
