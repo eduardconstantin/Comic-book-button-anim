@@ -19,8 +19,9 @@ code {
   justify-content: center;
 }
 
-.buttonContainer {
+.appContainer {
   background-color: rgb(45, 42, 51);
+  position: relative;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -30,4 +31,12 @@ code {
   background-size: 1%;
   background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.2' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
   cursor: url("./components/ComicButton/img/arrow.png"), auto;
+}
+
+.ghStargazersContainer {
+  position: absolute;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  bottom: 0;
+  left: 0;
 }

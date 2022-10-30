@@ -1,0 +1,11 @@
+.ghStarBtn{
+   display: relative;
+}
+
+.ghIcon {
+   height: 30px;
+   width: 30px;
+   position: relative;
+   top: 0.28em;
+   margin-right: 0.5em;
+}
