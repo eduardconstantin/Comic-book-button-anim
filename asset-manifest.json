@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/comic-book-button-anim/static/css/main.10edac33.css",
+    "main.js": "/comic-book-button-anim/static/js/main.94af2e85.js",
+    "static/media/click.png": "/comic-book-button-anim/static/media/click.50ba396fe0400dd7859b.png",
+    "index.html": "/comic-book-button-anim/index.html",
+    "main.10edac33.css.map": "/comic-book-button-anim/static/css/main.10edac33.css.map",
+    "main.94af2e85.js.map": "/comic-book-button-anim/static/js/main.94af2e85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10edac33.css",
+    "static/js/main.94af2e85.js"
+  ]
+}
