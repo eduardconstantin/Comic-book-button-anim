@@ -72,7 +72,7 @@ function addGithubIcon(compEl: HTMLElement, btnClassName: string, iconClassName?
   if (!btnEl) return
 
   const iconImg = document.createElement("img")
-  iconImg.src = "/github.png";
+  iconImg.src = "github.png";
   iconImg.alt = "github icon"
   if(iconClassName) iconImg.classList.add(iconClassName);
 
