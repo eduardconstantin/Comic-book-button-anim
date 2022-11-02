@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Comic-book-button-anim/static/css/main.4512233a.css",
-    "main.js": "/Comic-book-button-anim/static/js/main.94af2e85.js",
+    "main.js": "/Comic-book-button-anim/static/js/main.6de8876b.js",
     "static/media/click.png": "/Comic-book-button-anim/static/media/click.50ba396fe0400dd7859b.png",
     "index.html": "/Comic-book-button-anim/index.html",
     "main.4512233a.css.map": "/Comic-book-button-anim/static/css/main.4512233a.css.map",
-    "main.94af2e85.js.map": "/Comic-book-button-anim/static/js/main.94af2e85.js.map"
+    "main.6de8876b.js.map": "/Comic-book-button-anim/static/js/main.6de8876b.js.map"
   },
   "entrypoints": [
     "static/css/main.4512233a.css",
-    "static/js/main.94af2e85.js"
+    "static/js/main.6de8876b.js"
   ]
 }
